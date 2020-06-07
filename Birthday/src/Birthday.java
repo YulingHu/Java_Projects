@@ -22,10 +22,8 @@ public class Birthday {
 	}
 	
 	
-	/*
-	 * calculate # days until next birthday
-	 * calculate # days from birthday to today
-	 */
+	// calculate # days until next birthday
+	// calculate # days from birthday to today
 	public static void calculate(Date b,Date t){
 		Date temp1 = new Date(b.getYear(),b.getMonth(),b.getDay());
 		Date temp2 = new Date(t.getYear(),t.getMonth(),t.getDay());
